@@ -17,8 +17,8 @@
 
   <body>
     <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix" style="display: table; width: 100%;">
+      <div class="container" style="display: table; width: 100%;">
+        <header class="masthead clearfix">
 		<div style="position: absolute; left: 0px; width: 15%;">		
           <a href="{{ site.baseurl }}/" class="site-avatar" ><img src="{{ site.avatar }}" /></a>
 		</div>
@@ -27,10 +27,12 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
+		  <div>
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/about">About</a>
           </nav>
+		  </div>
         </header>
       </div>
     </div>

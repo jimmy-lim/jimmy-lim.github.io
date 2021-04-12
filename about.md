@@ -44,7 +44,6 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 - Developed firmware for daughter-board of TCI, which act as Controller Area Network (CAN) message transcoder to provide backward compatibility. 
 - Supervised and mentored team members.
 
-
 **Software Engineer ( Jul 2012 - Dec 2014)**
 - Designed and developed embedded software for Lift Monitoring Device (LMD), providing live status/alarm update of lifts/elevators via GPRS/3G modem. 
 - Designed and developed PC-based maintenance tools for the above software. 
@@ -58,5 +57,5 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 ### Contact me
 
 [ljm3101@gmail.com](mailto:ljm3101@gmail.com)
-> const zeroPad = (num, places) => String(num).padStart(places, '0')
+    const zeroPad = (num, places) => String(num).padStart(places, '0')
 [zeroPad(2e6+72e1,8)](tel:zeroPad(2e6+72e1,8))
