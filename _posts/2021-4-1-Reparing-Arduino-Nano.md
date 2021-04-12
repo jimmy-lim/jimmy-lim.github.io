@@ -8,7 +8,6 @@ As the first electronic project of mine, 2 Arduino Nano were burnt \(5V shorted 
 
 Referring to [this](https://www.instructables.com/How-to-Fix-Fried-Arduino-NanoUnoMega/), even my Arduinos do not have visible damage, I'd go ahead to replace the diode and successfully revived these burnt Arduino Nano.
 
-![image1]({{ site.baseurl }}/images/arduino-repair-1.jpeg)
 ![image2]({{ site.baseurl }}/images/arduino-repair-2.jpeg)
 
 **Tips/Tricks**
