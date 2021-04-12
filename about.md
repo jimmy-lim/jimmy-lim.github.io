@@ -57,5 +57,5 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 ### Contact me
 
 [ljm3101@gmail.com](mailto:ljm3101@gmail.com)
-    const zeroPad = (num, places) => String(num).padStart(places, '0')
+>    const zeroPad = (num, places) => String(num).padStart(places, '0')
 [zeroPad(2e6+72e1,8)](tel:zeroPad(2e6+72e1,8))
