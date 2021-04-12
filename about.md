@@ -1,27 +1,25 @@
 ---
 layout: page
-title: About
 permalink: /about/
 ---
-
-Some information about me!
-
 ### Personal Summary
 
 I am a Systems Administrator / Software Engineer with 4 years New Zealand work experience and 4 years Singapore work experience *(as of April 2021)*. 
-My technical expertise includes proficiency in various programming languages, web/software development (including) and automation scripting. Being fully in-charged for website and backend management systems, I am also able to find bugs in systems and provide front-line patches.
+My technical expertise includes proficiency in various programming languages (C++, C#, Javascript, PHP), web/software development and automation scripting. Being fully in-charged for website and backend management systems, I am also able to find bugs in complex systems and provide front-line patches.
 While I am able to write scripts to automate regular/manual tasks and turn client requirements into products that comply with defined standards, my greatest strength lie in problem solving, fast learning as well as produce detailed documentation. 
 
+---
 ### Career Achievements
-- Built and maintained e-commerce site with thousands of products. (2020)
-- Developed scripts to automated regular/manual tasks. (2019 - 2020)
+- Built and maintained e-commerce site with thousands of products. (2020 - 2021)
+- Developed scripts to automated regular/manual tasks. (2019 - 2021)
 - Maintained and migrated servers and databases (2019)
-- Provided front-line patches for UI & logic bugs in web apps. (2017 - 2020) 
+- Provided front-line patches for UI & logic bugs in web apps. (2017 - 2021) 
 - Completed proof-of-concept train borne project from scratch. (2015 - 2016) 
 - Completed full SDLC and documentation of projects. (2012 - 2016)
 - Delivered well-tested products in safety-critical projects. (2012 - 2016)
 
-### Work Experience.
+---
+### Work Experience
 
 #### TOYCO (www.toyco.co.nz) - *Largest independently owned toy store in NZ with integrated e-commerce backed by highly efficient online order picking and dispatch system.*
 
@@ -56,11 +54,9 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 - Provided on-site and remote technical support and trouble-shooting.
 - Maintained and improved in-house web apps, server and database. 
 
-
+---
 ### Contact me
 
 [ljm3101@gmail.com](mailto:ljm3101@gmail.com)
-```javascript
-const zeroPad = (num, places) => String(num).padStart(places, '0')
-```
+> const zeroPad = (num, places) => String(num).padStart(places, '0')
 [zeroPad(2e6+72e1,8)](tel:zeroPad(2e6+72e1,8))
