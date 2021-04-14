@@ -12,9 +12,9 @@ The Nano was powered by 3 AA batteries (packed into battery compartment chopped 
 ![image1]({{ site.baseurl }}/images/arduino-music-box-1.jpeg)
 ![image2]({{ site.baseurl }}/images/arduino-music-box-2.jpeg)
 
-The main loop is simple, ready photoresistor value, if the value is low (box is closed), then it's ready to play some music the next time the box open.
+The main loop is simple, read photoresistor value, if the value is low (box is closed), then it's ready to play some music the next time the box open.
 ```
-int value = 0;          // Store value from photoresistor (0-1023)
+int value = 0; // value 0-1023 from photoresistor
 bool bReady = false;
 
 void loop(){
@@ -32,9 +32,6 @@ void loop(){
   delay(1000); //Small delay
 }
 ```
-
-![image1]({{ site.baseurl }}/images/arduino-music-box-1.jpeg)
-![image2]({{ site.baseurl }}/images/arduino-music-box-2.jpeg)
 
 **Tips/Tricks**
 - This is a very basic project (in case you are electronic background). Well, I am from software background, thus took awhile to figured out everything.
