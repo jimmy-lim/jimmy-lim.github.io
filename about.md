@@ -1,5 +1,6 @@
 ---
 layout: page
+title: About
 permalink: /about/
 ---
 ### Personal Summary
@@ -55,16 +56,17 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 
 ---
 ### Highest Education
-Universiti Teknologi Malaysia
+#### Universiti Teknologi Malaysia
 **Bachelor of Computer Science Database System (First Class Honours)**
 - Year 2008 to 2012
 - CPGA 3.8+
 - Dean's List for all semesters
+
 ---
 ### Contact me
 
 [ljm3101@gmail.com](mailto:ljm3101@gmail.com)
+["+64"+a(2e6+72e1,8)](tel:"+64"+a(2e6+72e1,8))
+```javascript
+const a = (b,c) => String(b).padStart(c, '0')
 ```
-const zeroPad = (num, places) => String(num).padStart(places, '0')
-```
-[zeroPad(2e6+72e1,8)](tel:zeroPad(2e6+72e1,8))
