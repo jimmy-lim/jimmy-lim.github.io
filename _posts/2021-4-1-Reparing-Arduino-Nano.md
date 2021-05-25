@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 20210401 Repairing Arduino Nano
+tags: electronic arduino DIY
 ---
 
 Was preparing a [simple music box]({{ site.baseurl }}/Throwback-First-Arduino-Project/) for Victoria's birthday. It's the combo of Arduino Nano + photoresistor + buzzer. 

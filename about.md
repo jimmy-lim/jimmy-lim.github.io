@@ -66,7 +66,8 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 ### Contact me
 
 [ljm3101@gmail.com](mailto:ljm3101@gmail.com)
-["+64"+a(2e6+72e1,8)](tel:"+64"+a(2e6+72e1,8))
+
+["+6421"+a(2e6+72e1,8)](tel:"+6421"+a(2e6+72e1,8))
 ```javascript
 const a = (b,c) => String(b).padStart(c, '0')
 ```

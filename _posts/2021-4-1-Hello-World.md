@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 20210401 Up and Running!
+tags: web
 ---
 
 - Forked jekyll-now
