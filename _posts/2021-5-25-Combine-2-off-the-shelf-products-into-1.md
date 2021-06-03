@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2021525 Combine 2 Off-The-Shelf Products into 1
+title: 20210525 Combine 2 Off-The-Shelf Products into 1
 tags: electronic DIY
 ---
 
