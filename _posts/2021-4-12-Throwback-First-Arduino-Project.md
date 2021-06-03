@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 20210412 Throwback of My First Arduino-Powered Electronic Project
-tags: electronic arduino DIY codes
+tags: electronic arduino DIY
 ---
 
 March is Victoria's birthmoon. Was low on budget thus a DIY gift idea come into my mind (A simple music box, featuring Arduino Nano + photoresistor + buzzer)
@@ -15,11 +15,11 @@ The Nano was powered by 3 AA batteries (packed into battery compartment chopped 
 
 The main loop is simple, read photoresistor value, if the value is low (box is closed), then it's ready to play "Happy Birthday" the next time the box open.
 ```
-int value = 0; // value 0-1023 from photoresistor
+int value = 0;
 bool bReady = false;
 
 void loop(){
-  value = analogRead(pResistor);
+  value = analogRead(pResistor); // value 0-1023 from photoresistor
   Serial.println(value);
   if (value > 200){
     if(bReady) {
