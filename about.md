@@ -5,26 +5,30 @@ permalink: /about/
 ---
 ### Personal Summary
 
-I am a Systems Administrator / Software Engineer with 4 years New Zealand work experience and 4 years Singapore work experience *(as of April 2021)*. 
-My technical expertise includes proficiency in various programming languages (C++, C#, Javascript, PHP), web/software development and automation scripting. Being fully in-charged for website and backend management systems, I am also able to find bugs in complex systems and provide front-line patches.
-While I am able to write scripts to automate regular/manual tasks and turn client requirements into products that comply with defined standards, my greatest strength lie in problem solving, fast learning as well as produce detailed documentation. 
+Systems Administrator / Software Engineer with 10+ years experience in NZ and SG.
+
+Technical expertise includes proficiency in various programming languages (C++, C#, Javascript), fullstack software development and automation scripting. 
 
 ---
 ### Career Achievements
-- Built and maintained e-commerce site with thousands of products. (2020 - 2021)
-- Developed scripts to automated regular/manual tasks. (2019 - 2021)
+
+- Built and maintained Shopify site with Infinity Unified Commerce integration. (2020 - 2021)
+- Developed automation scripts and provided front-line patches. (2017 - 2021) 
 - Maintained and migrated servers and databases (2019)
-- Provided front-line patches for UI & logic bugs in web apps. (2017 - 2021) 
-- Completed proof-of-concept train borne project from scratch. (2015 - 2016) 
-- Completed full SDLC and documentation of projects. (2012 - 2016)
-- Delivered well-tested products in safety-critical projects. (2012 - 2016)
+- Completed proof-of-concept Motorola radio multiplexer project from scratch. (2015 - 2016) 
+- Full SDLC and documentation of projects. (2012 - 2016)
+- Delivered well-tested products in safety-critical trainbourne projects. (2012 - 2016)
 
 ---
 ### Work Experience
 
+#### Kakariki Technology Limited () - *New Zealand–registered software development company specializing in veterinary industry solutions.*
+
+#### Waikato Milking Systems (waikatomilking.com) - *New Zealand based innovator in precision dairy technology, designing and manufacturing advanced rotary, inline, and smart milking systems trusted by farmers worldwide.*
+
 #### TOYCO (www.toyco.co.nz) - *Largest independently owned toy store in NZ with integrated e-commerce backed by highly efficient online order picking and dispatch system.*
 
-**Systems Administrator ( July 2017 - Present )**
+**Systems Administrator ( July 2017 - 2021 )**
 - Total maintenance of web apps, ensured accurate and up-to-date information. 
 - Identified operational and/or technical issues of web apps. 
 - Evaluated and analysed web apps to provide recommendations for constant improvement.
@@ -66,8 +70,3 @@ While I am able to write scripts to automate regular/manual tasks and turn clien
 ### Contact me
 
 [ljm3101@gmail.com](mailto:ljm3101@gmail.com)
-
-["+6421"+a(2e6+72e1,8)](tel:"+6421"+a(2e6+72e1,8))
-```javascript
-const a = (b,c) => String(b).padStart(c, '0')
-```
