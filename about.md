@@ -5,7 +5,7 @@ permalink: /about/
 ---
 ### Personal Summary
 
-Systems Administrator / Software Engineer with 10+ years experience in NZ and SG.
+Software Engineer with 10+ years experience in NZ and SG. Providing solution beyond boundaries — Full-Stack to Embedded
 
 Technical expertise includes proficiency in various programming languages (C++, C#, Javascript), fullstack software development and automation scripting. 
 
