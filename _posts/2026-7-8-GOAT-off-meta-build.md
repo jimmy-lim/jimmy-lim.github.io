@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 不会近战的法师不是好法师
+title: A mage who can't melee is no good mage
 tags: [TOTD, off-meta]
 description: GOAT — off meta build.
 ---
