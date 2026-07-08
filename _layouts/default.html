@@ -31,9 +31,9 @@
             <a href="{{ site.baseurl }}/about">About</a>
             {% comment %} Auto-list every tag used in a post; each needs a tag/<name>.md stub {% endcomment %}
             {% include collecttags.html %}
-            {% for tag in tags %}
+            {% for tag in tags %}{% unless tag == "" %}
             <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}/">{{ tag }}</a>
-            {% endfor %}
+            {% endunless %}{% endfor %}
           </nav>
         </header>
       </div>
