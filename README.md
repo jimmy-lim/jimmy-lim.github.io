@@ -50,11 +50,27 @@ Edit `/_posts/2014-3-3-Hello-World.md` to publish your first blog post. This [Ma
 
 ## Local Development
 
-1. Install Jekyll and plug-ins in one fell swoop. `gem install github-pages` This mirrors the plug-ins used by GitHub Pages on your local machine including Jekyll, Sass, etc.
-2. Clone down your fork `git clone https://github.com/yourusername/yourusername.github.io.git`
-3. Serve the site and watch for markup/sass changes `jekyll serve`
-4. View your website at http://127.0.0.1:4000/
-5. Commit any changes and push everything to the master branch of your GitHub user repository. GitHub Pages will then rebuild and serve your website.
+A `Gemfile` pins the `github-pages` gem so a local build matches what GitHub
+Pages runs server-side. The `Gemfile`/`Gemfile.lock` are git-ignored — this is a
+GitHub Pages **user site**, built natively by GitHub, so they stay local-only.
+
+One-time setup (Debian/Ubuntu — needs Ruby headers to compile native gems):
+
+```sh
+sudo apt install ruby-dev build-essential   # ruby.h + compiler toolchain
+gem install --user-install bundler
+bundle install                               # installs github-pages + plugins
+```
+
+Then, to preview:
+
+```sh
+bundle exec jekyll serve                     # http://127.0.0.1:4000/
+```
+
+Commit and push to `master`; GitHub Pages rebuilds and serves the live site.
+None of this is required just to publish — you can edit Markdown and push
+without ever running Jekyll locally.
 
 ## Moar!
 
