@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Up and Running!
-tags: web
+tags: IT
 ---
 
 - Forked jekyll-now

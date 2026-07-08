@@ -77,7 +77,7 @@ and won't appear on the `/tags/` index).
 |-----|---------|-----|
 | `TOTD` | Thought of the day — random thinking | `/tag/totd/` |
 | `off-meta` | Non-software posts, life outside engineering | `/tag/off-meta/` |
-| `web` | Web dev | `/tag/web/` |
+| `IT` | Software, web, general tech | `/tag/it/` |
 | `work` | Work | `/tag/work/` |
 | `arduino` | Arduino | `/tag/arduino/` |
 | `DIY` | DIY | `/tag/diy/` |

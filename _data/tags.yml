@@ -8,9 +8,9 @@ totd:
 off-meta:
   name: off-meta
   description: 'Off-meta (META = Most Effective Tactics Available) — non-software projects and life outside engineering.'
-web:
-  name: web
-  description: Web development notes.
+it:
+  name: IT
+  description: Software, web, and general tech notes.
 work:
   name: work
   description: Work and career.
