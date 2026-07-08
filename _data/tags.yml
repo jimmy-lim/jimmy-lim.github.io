@@ -7,7 +7,7 @@ totd:
   description: Thought of the day — random musings and half-formed ideas.
 off-meta:
   name: off-meta
-  description: Off-meta — non-software projects and life outside engineering.
+  description: 'Off-meta (META = Most Effective Tactics Available) — non-software projects and life outside engineering.'
 web:
   name: web
   description: Web development notes.
