@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 不会近战的法师不是好法师
-tags: [TOTD, off-meta-build]
+tags: [TOTD, off-meta]
 description: GOAT — off meta build.
 ---
 

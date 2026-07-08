@@ -33,7 +33,7 @@ nav — they are browsed via the `/tags/` index (`tags.md`), which lists every t
 with its description and post count. Each tag has a listing page at
 `/tag/<slug>/` (a stub in `tag/`).
 
-Known tags: `TOTD` (thought of the day), `off-meta-build` (non-software),
+Known tags: `TOTD` (thought of the day), `off-meta` (non-software),
 `web`, `work`, `arduino`, `DIY`, `electronic`. Descriptions in `_data/tags.yml`.
 
 ## Publishing

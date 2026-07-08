@@ -23,7 +23,7 @@ Frontmatter (exact keys):
 ---
 layout: post
 title: <Human title, can contain spaces — NO date/timestamp prefix>
-tags: <tag>                # single tag; or a list: [TOTD, off-meta-build]
+tags: <tag>                # single tag; or a list: [TOTD, off-meta]
 description: <one line>    # optional — shown under the title on /tag/<slug>/ pages
 ---
 ```
@@ -76,7 +76,7 @@ and won't appear on the `/tags/` index).
 | Tag | Meaning | URL |
 |-----|---------|-----|
 | `TOTD` | Thought of the day — random thinking | `/tag/totd/` |
-| `off-meta-build` | Non-software posts, life outside engineering | `/tag/off-meta-build/` |
+| `off-meta` | Non-software posts, life outside engineering | `/tag/off-meta/` |
 | `web` | Web dev | `/tag/web/` |
 | `work` | Work | `/tag/work/` |
 | `arduino` | Arduino | `/tag/arduino/` |

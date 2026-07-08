@@ -5,9 +5,9 @@
 totd:
   name: TOTD
   description: Thought of the day — random musings and half-formed ideas.
-off-meta-build:
-  name: off-meta-build
-  description: Off-meta build — non-software projects and life outside engineering.
+off-meta:
+  name: off-meta
+  description: Off-meta — non-software projects and life outside engineering.
 web:
   name: web
   description: Web development notes.
