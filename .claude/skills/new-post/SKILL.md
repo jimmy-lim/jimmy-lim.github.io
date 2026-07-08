@@ -35,9 +35,10 @@ the `post` layout. Title = the human headline only.
 Body is GitHub-flavored Markdown. Images go in `images/` and are referenced as
 `![alt]({{ site.baseurl }}/images/<file>)`.
 
-## 2. Tag → nav wiring (IMPORTANT)
+## 2. Tag wiring (IMPORTANT)
 
-The header nav auto-lists every tag used in any post. For a tag's nav link to
+The nav is fixed (Blog · Tags · About). Tags are browsed via the `/tags/` index,
+which auto-lists every tag that has at least one post. For a tag's page to
 resolve, a stub file must exist at `tag/<slug>.md`:
 
 ```yaml

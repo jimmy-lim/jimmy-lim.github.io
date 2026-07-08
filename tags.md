@@ -9,9 +9,11 @@ permalink: /tags/
   {% assign slug = t[0] %}
   {% assign meta = t[1] %}
   {% assign posts = site.tags[meta.name] %}
+  {% if posts %}
   <li>
-    <a href="{{ site.baseurl }}/tag/{{ slug }}/">{{ meta.name }}</a>{% if posts %} ({{ posts | size }}){% endif %}
+    <a href="{{ site.baseurl }}/tag/{{ slug }}/">{{ meta.name }}</a> ({{ posts | size }})
     <br>{{ meta.description }}
   </li>
+  {% endif %}
 {% endfor %}
 </ul>

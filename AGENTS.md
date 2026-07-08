@@ -26,11 +26,12 @@ GitHub Pages whitelist.
 | `images/` | Post images; reference as `{{ site.baseurl }}/images/<file>` |
 | `style.scss`, `_sass/` | Styles. Mobile rules live behind the `@include mobile` mixin — do not override them with inline `position:absolute` (that caused a past mobile-overlap bug). |
 
-## Tags → nav
+## Tags
 
-The header nav (`_layouts/default.html`) **auto-lists every tag used in a post**.
-Tagging a post adds it to the menu. Each tag needs a matching stub in `tag/`
-(see the `new-post` skill) or its nav link 404s.
+The header nav is fixed: **Blog · Tags · About**. Individual tags are NOT in the
+nav — they are browsed via the `/tags/` index (`tags.md`), which lists every tag
+with its description and post count. Each tag has a listing page at
+`/tag/<slug>/` (a stub in `tag/`).
 
 Known tags: `TOTD` (thought of the day), `off-meta-build` (non-software),
 `web`, `work`, `arduino`, `DIY`, `electronic`. Descriptions in `_data/tags.yml`.
