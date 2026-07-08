@@ -7,7 +7,8 @@ layout: default
   <h1>Tag: {{ page.tag }}</h1>
 
   <div class="entry">
-    {% assign meta = site.data.tags[page.tag | slugify] %}
+    {% assign tslug = page.tag | slugify %}
+    {% assign meta = site.data.tags[tslug] %}
     {% if meta.description %}<p class="tag-description">{{ meta.description }}</p>{% endif %}
 	<ul>
 	{% for post in site.tags[page.tag] %}
