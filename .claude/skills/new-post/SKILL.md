@@ -22,11 +22,15 @@ Frontmatter (exact keys):
 ```yaml
 ---
 layout: post
-title: <Human title, can contain spaces>
-tags: <tag>                # single tag; or a list: [TOTD, off]
+title: <Human title, can contain spaces — NO date/timestamp prefix>
+tags: <tag>                # single tag; or a list: [TOTD, off-meta-build]
 description: <one line>    # optional — shown under the title on /tag/<slug>/ pages
 ---
 ```
+
+**Do NOT put a date or timestamp in the title** (e.g. `20210401 Up and
+Running!`). The post date comes from the filename and is rendered separately by
+the `post` layout. Title = the human headline only.
 
 Body is GitHub-flavored Markdown. Images go in `images/` and are referenced as
 `![alt]({{ site.baseurl }}/images/<file>)`.
