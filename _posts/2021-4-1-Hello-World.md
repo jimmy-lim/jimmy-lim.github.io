@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 20210401 Up and Running!
+title: Up and Running!
 tags: web
 ---
 
