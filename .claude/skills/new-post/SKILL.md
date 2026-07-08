@@ -52,19 +52,33 @@ Rules:
   be the slugified tag.
 - If the tag already has a stub in `tag/`, skip this step.
 
-### Existing tags (stub already present — just use them)
+### Tag descriptions live in `_data/tags.yml`
+
+Tag descriptions (shown on `/tag/<slug>/` and the `/tags/` index) are NOT in the
+stub — they live in `_data/tags.yml`, keyed by slug:
+
+```yaml
+<slug>:
+  name: <ExactTagAsInPost>   # case-sensitive, must match post + stub tag
+  description: <one line>
+```
+
+When adding a brand-new tag, add an entry here too (else it has no description
+and won't appear on the `/tags/` index).
+
+### Existing tags (stub + data entry already present — just use them)
 
 | Tag | Meaning | URL |
 |-----|---------|-----|
 | `TOTD` | Thought of the day — random thinking | `/tag/totd/` |
-| `Off` | Off-meta build — non-software posts | `/tag/off/` |
+| `off-meta-build` | Non-software posts, life outside engineering | `/tag/off-meta-build/` |
 | `web` | Web dev | `/tag/web/` |
 | `work` | Work | `/tag/work/` |
 | `arduino` | Arduino | `/tag/arduino/` |
 | `DIY` | DIY | `/tag/diy/` |
 | `electronic` | Electronics | `/tag/electronic/` |
 
-Only create a new stub when introducing a brand-new tag.
+Only create a new stub + data entry when introducing a brand-new tag.
 
 ## 3. Publish
 

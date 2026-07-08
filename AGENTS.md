@@ -20,7 +20,9 @@ GitHub Pages whitelist.
 | `_deleted/` | Draft/retired posts — **excluded from the build** (`_`-prefixed dir). Move a file here to unpublish, or to `_posts/` to publish. |
 | `_layouts/` | `default`, `post`, `page`, `tagpage` |
 | `_includes/` | `collecttags.html` (builds tag list for nav), meta, analytics, svg-icons |
+| `_data/tags.yml` | Tag metadata (slug → name + description), single source for tag pages and the `/tags/` index |
 | `tag/` | One stub per tag → generates `/tag/<slug>/` listing page |
+| `tags.md` | `/tags/` index — all tags with descriptions + post counts |
 | `images/` | Post images; reference as `{{ site.baseurl }}/images/<file>` |
 | `style.scss`, `_sass/` | Styles. Mobile rules live behind the `@include mobile` mixin — do not override them with inline `position:absolute` (that caused a past mobile-overlap bug). |
 
@@ -30,8 +32,8 @@ The header nav (`_layouts/default.html`) **auto-lists every tag used in a post**
 Tagging a post adds it to the menu. Each tag needs a matching stub in `tag/`
 (see the `new-post` skill) or its nav link 404s.
 
-Known tags: `TOTD` (thought of the day), `Off` (non-software), `web`, `work`,
-`arduino`, `DIY`, `electronic`.
+Known tags: `TOTD` (thought of the day), `off-meta-build` (non-software),
+`web`, `work`, `arduino`, `DIY`, `electronic`. Descriptions in `_data/tags.yml`.
 
 ## Publishing
 

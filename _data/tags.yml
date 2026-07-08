@@ -1,0 +1,25 @@
+# Single source of truth for tag metadata.
+# Key = slug (lowercase, matches /tag/<slug>/ and the file tag/<slug>.md).
+# name = the EXACT tag string as written in post frontmatter (case-sensitive).
+# description = shown on the tag page and the /tags/ index.
+totd:
+  name: TOTD
+  description: Thought of the day — random musings and half-formed ideas.
+off-meta-build:
+  name: off-meta-build
+  description: Off-meta build — non-software projects and life outside engineering.
+web:
+  name: web
+  description: Web development notes.
+work:
+  name: work
+  description: Work and career.
+arduino:
+  name: arduino
+  description: Arduino projects and experiments.
+diy:
+  name: DIY
+  description: Do-it-yourself builds and repairs.
+electronic:
+  name: electronic
+  description: Electronics and hardware tinkering.
