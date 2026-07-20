@@ -7,7 +7,7 @@ description: A process called -bash was eating 15 cores. It was not bash.
 
 ![A ps listing showing a process named -bash using 40 threads and 1515% CPU, with its binary deleted — captioned "This is not bash. It's a miner."]({{ site.baseurl }}/images/bash-that-wasnt.svg)
 
-It started with `htop`. One process, named `-bash`, quietly devouring fifteen CPU cores like it paid rent. Real `bash` is a shell. It waits for you to type. It does not pin a CPU, let alone fifteen of them.
+It started with `btop`. One process, named `-bash`, quietly devouring fifteen CPU cores like it paid rent. Real `bash` is a shell. It waits for you to type. It does not pin a CPU, let alone fifteen of them.
 
 So I looked closer.
 
