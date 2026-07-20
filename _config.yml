@@ -76,6 +76,12 @@ plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
+# Build posts even if dated slightly in the future — NZ is ahead of the
+# UTC build server, so evening posts otherwise read as "tomorrow" and get skipped.
+future: true
+# Interpret post dates in NZ time rather than UTC.
+timezone: Pacific/Auckland
+
 # Exclude these files from your production _site
 exclude:
   - Gemfile
