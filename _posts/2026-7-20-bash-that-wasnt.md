@@ -78,7 +78,7 @@ The miner had been dead for eight hours. The real culprit: a MySQL container con
 - **Root cause:** forgotten accounts + weak passwords + a reverse tunnel I built myself.
 - **Blast radius:** one unprivileged miner. No root, no data, no lateral movement.
 - **Time held:** ~5 weeks of access, 7 days of actual mining.
-- **Dignity lost:** moderate.
+- **Dignity lost:** catastrophic.
 
 The attacker was not sophisticated. They ran a commodity username dictionary against a door I'd propped open and dropped an off-the-shelf miner. That's the humbling part — this wasn't a master thief. It was someone walking down the street trying every doorknob, and mine turned.
 
