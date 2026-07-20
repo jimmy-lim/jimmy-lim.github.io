@@ -26,7 +26,7 @@
   <!-- the smoking-gun row -->
   <rect x="96" y="220" width="1008" height="36" rx="5" fill="#f7768e18"/>
   <text x="128" y="245" font-size="18" fill="#c0caf5">63572</text>
-  <text x="188" y="245" font-size="18" fill="#c0caf5">alex</text>
+  <text x="188" y="245" font-size="18" fill="#c0caf5">doe</text>
   <text x="290" y="245" font-size="18" fill="#ff9e64" font-weight="bold">40</text>
   <text x="360" y="245" font-size="18" fill="#f7768e" font-weight="bold">1515</text>
   <text x="440" y="245" font-size="18" fill="#c0caf5">Ssl</text>

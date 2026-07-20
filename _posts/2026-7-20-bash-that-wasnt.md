@@ -29,7 +29,7 @@ Its open files told the rest of the story: logs written to an unlinked file (inv
 
 ## How it got in (spoiler: I held the door)
 
-Two dormant accounts, `tom` and `alex`, created long ago for reasons past-me thought were excellent. Weak passwords. SSH password auth still on.
+Two dormant accounts, `john` and `doe`, created long ago for reasons past-me thought were excellent. Weak passwords. SSH password auth still on.
 
 The logs showed **440,000 failed login attempts** across ten days. Then two successes. Then, eight seconds after one login, a miner and a cron job. Efficient work.
 
@@ -59,7 +59,7 @@ A later sweep for files owned by the deleted accounts found a **second copy** of
 
 ## The plot twist that wasn't
 
-Then I found `tom` and `alex` logging into *another* of my servers by SSH key, on the same day as the miner drop. Heart rate: elevated. Lateral movement?
+Then I found `john` and `doe` logging into *another* of my servers by SSH key, on the same day as the miner drop. Heart rate: elevated. Lateral movement?
 
 No. The keys were installed **sixteen months earlier**, long before any of this. Same account names, completely unrelated credentials, on a different machine. The other box used key auth only; the cracked passwords were worthless there. Pure coincidence, expertly timed to ruin my afternoon.
 
