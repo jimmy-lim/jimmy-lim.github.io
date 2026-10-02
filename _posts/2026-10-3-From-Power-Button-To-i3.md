@@ -172,6 +172,7 @@ Windows does all of the same jobs. It just doesn't show you the seams. Lined up 
 | Lock screen | Win+L | i3lock |
 | Network tray icon | network flyout | nm-applet |
 | Event Viewer | Event Viewer | `dmesg` + `journalctl` |
+{: .bordered}
 
 The difference is that on Windows every row is one company's binary, glued together and hidden. Here every row is a separate program I picked, and I can read a log line telling me exactly when it started. The whole thing fits in one page of ASCII.
 

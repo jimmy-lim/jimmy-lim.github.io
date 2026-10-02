@@ -261,6 +261,23 @@ nav {
     font-style: italic;
   }
 
+  // Opt in per table with {: .bordered} on the line after it
+  table.bordered {
+    display: block;
+    overflow-x: auto;
+    margin-bottom: 20px;
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 6px 12px;
+    }
+
+    th {
+      background-color: $lightGray;
+      font-weight: bold;
+    }
+  }
+
   .comments {
     margin-top: 10px;
   }
