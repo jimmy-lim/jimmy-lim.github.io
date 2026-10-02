@@ -5,6 +5,8 @@ tags: IT
 description: Reading my laptop's dmesg line by line to learn how Linux boots, all the way up to the desktop that replaced Windows.
 ---
 
+![An i3 desktop with three tiled terminals: dmesg showing the kernel boot with "Run /init as init process" highlighted, systemd-analyze reporting a 13.6 second boot, and the .xinitrc and i3 config lines that start the desktop, above an i3bar status line]({{ site.baseurl }}/images/power-button-to-i3.svg)
+
 I wanted to actually understand what happens between pressing the power button and seeing my desktop. So I dumped `dmesg` on my old Acer Aspire S5 (i5-7200U, 8 GB, NVMe, Debian 13) and read all 1,031 lines in order.
 
 Not hunting for errors. Just reading it like a story. Turns out it is one.
